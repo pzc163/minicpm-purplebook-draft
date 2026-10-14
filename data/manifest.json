@@ -1,0 +1,30 @@
+{
+  "license": "CC0-1.0",
+  "kind": "original synthetic teaching data",
+  "seed": 47,
+  "split_method": "disjoint outer templates, explicit edge cases",
+  "train.jsonl": {
+    "rows": 320,
+    "sha256": "5ad156f841d027253a07beed5b673cfab92fb0f1cde765fd0b0158af47022456"
+  },
+  "train_gold.jsonl": {
+    "rows": 320,
+    "sha256": "3e4d325f6da30ef2d9eb6eeab3975ae9cf2a7b66ccab75ca48998a1d662e2363"
+  },
+  "dev.jsonl": {
+    "rows": 64,
+    "sha256": "09a83cef03d0a05880e29df3db07ea23dd1ab49fa471e55e2ac7ec2829c41f40"
+  },
+  "dev_gold.jsonl": {
+    "rows": 64,
+    "sha256": "a7d3729da5b8d9315f92ff463aff25be28f5bf696e15f6b2998d600f051f62a4"
+  },
+  "test.jsonl": {
+    "rows": 96,
+    "sha256": "18b213c28377195877f5470538cfce80e2dc918c533e30023b633b6c8e15b84b"
+  },
+  "test_gold.jsonl": {
+    "rows": 96,
+    "sha256": "14217ba579b5b3274291be6e8e18ea33c0731ae1040de82fc55c536994ba5afa"
+  }
+}

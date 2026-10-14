@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-15",
+  "source": "Previously published ModelScope artifacts; extraction preserves original bytes.",
+  "artifacts": [
+    {
+      "file": "part5-reproduction-v2.zip",
+      "bytes": 433393,
+      "sha256": "55fee5d70e416e310573c08a3a2739ad4482a4f590b298b7ca307d91d15670b5",
+      "url": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5/resolve/master/part5-reproduction-v2.zip?view=false"
+    },
+    {
+      "file": "part5-apk-v23-source.zip",
+      "bytes": 77940,
+      "sha256": "777b64f9878cfbb548c231dd48933c9dc38deef6b516f122624b8ac94e0a560e",
+      "url": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5/resolve/master/part5-apk-v23-source.zip?view=false"
+    },
+    {
+      "file": "part5-clean-room-results.zip",
+      "bytes": 24391,
+      "sha256": "4ed5d740452afe068f14cebe7f08d187728e433f0230e7796c0c13a899c1cd5b",
+      "url": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5/resolve/master/part5-clean-room-results.zip?view=false"
+    },
+    {
+      "file": "MiniCPM-V-demo-Android-v2.5.apk",
+      "bytes": 21137824,
+      "sha256": "6615b7de73245a2dde9f45dae12da46298fe46bc97022a24329213afedba1283",
+      "url": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5/resolve/master/MiniCPM-V-demo-Android-v2.5.apk?view=false"
+    },
+    {
+      "file": "part5-course.zip",
+      "bytes": 18348,
+      "sha256": "835cbbce2a9a57e57bb75d473f310354f4b7a06ed78d92a35efac50dd1d6b743",
+      "url": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5/resolve/master/part5-course.zip?view=false"
+    }
+  ]
+}

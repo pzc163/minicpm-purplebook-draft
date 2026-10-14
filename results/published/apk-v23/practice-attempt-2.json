@@ -1,0 +1,8 @@
+{
+  "attempt": 2,
+  "schema_valid": true,
+  "first_text_ms": 7986,
+  "complete_ms": 19927,
+  "raw": "{\n  \"object\": \"material\",\n  \"visible_issue\": \"cracks and separation\",\n  \"needs_retake\": false,\n  \"missing_fields\": []\n}",
+  "raw_modified": false
+}

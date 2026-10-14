@@ -1,0 +1,119 @@
+diff --git a/MiniCPM-V-demo-Android/app/src/main/cpp/llama_jni.cpp b/MiniCPM-V-demo-Android/app/src/main/cpp/llama_jni.cpp
+index 9ebf1f1..72b5485 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/cpp/llama_jni.cpp
++++ b/MiniCPM-V-demo-Android/app/src/main/cpp/llama_jni.cpp
+@@ -5,6 +5,7 @@
+ #include <string>
+ #include <unistd.h>
+ #include <vector>
++#include <exception>
+ 
+ #include "logging.h"
+ #include "chat.h"
+@@ -364,6 +365,18 @@ static std::string chat_add_and_format(const std::string &role, const std::strin
+     return formatted;
+ }
+ 
++// C++ exceptions must never unwind through the JNI boundary.
++static jint prompt_error(JNIEnv *env, const char *operation, const char *detail) {
++    const std::string message = std::string(operation) + ": " + detail;
++    LOGe("%s", message.c_str());
++    jclass exception = env->FindClass("java/lang/RuntimeException");
++    if (exception) {
++        env->ThrowNew(exception, message.c_str());
++        env->DeleteLocalRef(exception);
++    }
++    return -1;
++}
++
+ static llama_pos stop_generation_position;
+ static std::string cached_token_chars;
+ static std::ostringstream assistant_ss;
+@@ -413,18 +426,26 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_processSystemPrompt(
+         JNIEnv *env,
+         jobject /*unused*/,
+         jstring jsystem_prompt
+-) {
++) try {
+     reset_short_term_states();
+ 
+     const auto *system_prompt = env->GetStringUTFChars(jsystem_prompt, nullptr);
+     LOGd("%s: System prompt received: \n%s", __func__, system_prompt);
+     std::string formatted_system_prompt(system_prompt);
++    env->ReleaseStringUTFChars(jsystem_prompt, system_prompt);
+ 
+-    const bool has_chat_template = common_chat_templates_was_explicit(g_chat_templates.get());
+-    if (has_chat_template) {
+-        formatted_system_prompt = chat_add_and_format(ROLE_SYSTEM, system_prompt);
++    if (g_ctx_vision) {
++        // Match the existing mtmd user path and the iOS MBMtmd system path.
++        // V4.6's Jinja template requires a user message, so it cannot format
++        // a system-only incremental prefill.
++        common_chat_msg message;
++        message.role = ROLE_SYSTEM;
++        message.content = formatted_system_prompt;
++        chat_msgs.push_back(message);
++        formatted_system_prompt = "<|im_start|>system\n" + formatted_system_prompt + "<|im_end|>\n";
++    } else if (common_chat_templates_was_explicit(g_chat_templates.get())) {
++        formatted_system_prompt = chat_add_and_format(ROLE_SYSTEM, formatted_system_prompt);
+     }
+-    env->ReleaseStringUTFChars(jsystem_prompt, system_prompt);
+ 
+     if (g_ctx_vision) {
+         mtmd_input_text input_text;
+@@ -476,6 +497,10 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_processSystemPrompt(
+ 
+     system_prompt_position = current_position;
+     return 0;
++} catch (const std::exception &e) {
++    return prompt_error(env, "System prompt", e.what());
++} catch (...) {
++    return prompt_error(env, "System prompt", "Unknown native exception");
+ }
+ 
+ extern "C"
+@@ -559,7 +584,7 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_fullReset(JNIEnv *, jobject) {
+     llama_free(g_context);
+     g_context = nullptr;
+ 
+-    auto *context = init_context(g_model);
++    auto *context = init_context(g_model, g_n_ctx);
+     if (!context) {
+         LOGe("%s: Failed to reinitialize context!", __func__);
+         return;
+@@ -590,13 +615,14 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_processUserPrompt(
+         jobject /*unused*/,
+         jstring juser_prompt,
+         jint n_predict
+-) {
++) try {
+     reset_short_term_states();
+ 
+     const auto *const user_prompt = env->GetStringUTFChars(juser_prompt, nullptr);
+     LOGd("%s: User prompt received: \n%s", __func__, user_prompt);
+ 
+     std::string content_for_format(user_prompt);
++    env->ReleaseStringUTFChars(juser_prompt, user_prompt);
+     if (content_for_format.empty()) {
+         content_for_format = " ";
+     }
+@@ -635,8 +661,6 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_processUserPrompt(
+         }
+         apply_minicpm5_thinking_suffix(formatted_user_prompt);
+     }
+-    env->ReleaseStringUTFChars(juser_prompt, user_prompt);
+-
+     if (formatted_user_prompt.size() >= 8 &&
+         formatted_user_prompt.compare(formatted_user_prompt.size() - 8, 8, "<think>\n") == 0) {
+         cached_token_chars = "<think>\n";
+@@ -693,6 +717,10 @@ Java_com_example_minicpm_1v_1demo_LlamaEngine_processUserPrompt(
+ 
+     stop_generation_position = current_position + n_predict;
+     return 0;
++} catch (const std::exception &e) {
++    return prompt_error(env, "User prompt", e.what());
++} catch (...) {
++    return prompt_error(env, "User prompt", "Unknown native exception");
+ }
+ 
+ static bool is_valid_utf8(const char *string) {

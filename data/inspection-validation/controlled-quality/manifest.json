@@ -1,0 +1,43 @@
+{
+  "source_url": "https://data.mendeley.com/datasets/5y9wdsg2zt/2",
+  "author": "Çağlar Fırat Özgenel",
+  "license": "CC BY 4.0",
+  "images": [
+    {
+      "id": "controlled-dark",
+      "draft_id": "3ecea608-8f83-4d94-94e8-4c991eae7397",
+      "image": "dark.jpg",
+      "sha256": "2ff4ddbaedec0257528d288d00ec7492dfbe9f2339088390fc7580536e7bd066",
+      "quality_group": "dark",
+      "source": "public-cracks/images/Positive/15761_1.jpg",
+      "source_sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e",
+      "parameters": "brightness factor 0.03",
+      "scope": "controlled transformed fixture, not naturally captured low-quality photo",
+      "review_rule": "不能从不可辨或被遮住区域补充对象/裂缝/成因；保留原始回答，needs_retake由可见证据审阅"
+    },
+    {
+      "id": "controlled-blur",
+      "draft_id": "1cd1253e-d647-4e9a-93b0-a006419bd037",
+      "image": "blur.jpg",
+      "sha256": "c4e8808ba82805564a855a1fe71dfec6534e85b4d67e3c9fc51d65525aa40605",
+      "quality_group": "blur",
+      "source": "public-cracks/images/Positive/15761_1.jpg",
+      "source_sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e",
+      "parameters": "GaussianBlur radius 40 px",
+      "scope": "controlled transformed fixture, not naturally captured low-quality photo",
+      "review_rule": "不能从不可辨或被遮住区域补充对象/裂缝/成因；保留原始回答，needs_retake由可见证据审阅"
+    },
+    {
+      "id": "controlled-occluded",
+      "draft_id": "f2fed64c-e876-4abf-9e33-9e55951515a2",
+      "image": "occluded.jpg",
+      "sha256": "d1d883398e865ab718d711a6c472cfd6caebe4b5c4744fb999728863e6a7786e",
+      "quality_group": "occluded",
+      "source": "public-cracks/images/Positive/15761_1.jpg",
+      "source_sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e",
+      "parameters": "opaque gray rectangle [20,0,206,226], 82.4% width",
+      "scope": "controlled transformed fixture, not naturally captured low-quality photo",
+      "review_rule": "不能从不可辨或被遮住区域补充对象/裂缝/成因；保留原始回答，needs_retake由可见证据审阅"
+    }
+  ]
+}

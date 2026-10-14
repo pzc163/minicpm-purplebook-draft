@@ -1,0 +1,7 @@
+{
+  "attempt": 1,
+  "schema_valid": false,
+  "raw_detail": "首字：8081 ms\n完整草稿：15236 ms\n\n{\"object\": \"surface\", \"visible_issue\": \"cracked\", \"needs_retake\": false, \"missing_fields\":[][]}",
+  "error": "Unterminated object at line 1 column 94",
+  "raw_modified": false
+}

@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=MiniCPM-V Practice, O=Purplebook Chapter Contributors, C=CN
+Signer #1 certificate SHA-256 digest: 3eddc4d89ab27dc97302e839da128905e71779c276cd34c79e2aded29e230791
+Signer #1 certificate SHA-1 digest: 5d0e40d5bb78ce13c3d0eb3da241f5dcb1546346
+Signer #1 certificate MD5 digest: b468e8565812908a56a39fb2f8be1bc7
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 324400738f0d2f93def01971f3f7215102bad4292a3eba3fc297684014dc9b9d
+Signer #1 public key SHA-1 digest: a2200775c112776ac19b6013e15bcaaf388aee2e
+Signer #1 public key MD5 digest: a1491c04396e2d5c387b110ba3271c93

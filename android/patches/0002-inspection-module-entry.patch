@@ -1,0 +1,96 @@
+diff --git a/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/MainActivity.kt b/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/MainActivity.kt
+index 34ddca6..1f93e29 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/MainActivity.kt
++++ b/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/MainActivity.kt
+@@ -149,6 +149,11 @@ class MainActivity : AppCompatActivity() {
+     }
+ 
+     private fun setupClickListeners() {
++        InspectionEntry.bind(this) {
++            !isProcessingVideo && generationJob?.isActive != true &&
++                ::engine.isInitialized && (engine.state.value is LlamaState.Initialized ||
++                engine.state.value is LlamaState.ModelReady || engine.state.value is LlamaState.Error)
++        }
+         // Pick image OR video.  iOS demo's HXPhotoPicker exposes both
+         // photo and video in a single picker; on Android we ask SAF
+         // for either MIME, so the user gets the same "pick anything
+diff --git a/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/TtsActivity.kt b/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/TtsActivity.kt
+index 51e45a8..8aa85a2 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/TtsActivity.kt
++++ b/MiniCPM-V-demo-Android/app/src/main/java/com/example/minicpm_v_demo/TtsActivity.kt
+@@ -122,6 +122,10 @@ class TtsActivity : AppCompatActivity() {
+     }
+ 
+     private fun setupListeners() {
++        InspectionEntry.bind(this) {
++            !isRecording && !isGenerating && ::engine.isInitialized &&
++                engine.state.value !is TtsState.LoadingModel && engine.state.value !is TtsState.Generating
++        }
+         findViewById<com.google.android.material.appbar.MaterialToolbar>(R.id.toolbar).setNavigationOnClickListener {
+             finish()
+         }
+diff --git a/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_main.xml b/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_main.xml
+index 82181c5..ec013fd 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_main.xml
++++ b/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_main.xml
+@@ -86,6 +86,16 @@
+                     </FrameLayout>
+                 </androidx.appcompat.widget.Toolbar>
+             </com.google.android.material.appbar.CollapsingToolbarLayout>
++
++        <com.google.android.material.button.MaterialButton
++            android:id="@+id/btn_inspection"
++            style="@style/Widget.Material3.Button.OutlinedButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginHorizontal="16dp"
++            android:layout_marginBottom="4dp"
++            android:text="@string/inspection_entry"
++            android:textAllCaps="false" />
+         </com.google.android.material.appbar.AppBarLayout>
+ 
+         <androidx.recyclerview.widget.RecyclerView
+diff --git a/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_tts.xml b/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_tts.xml
+index 93c4cfa..5beb2ae 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_tts.xml
++++ b/MiniCPM-V-demo-Android/app/src/main/res/layout/activity_tts.xml
+@@ -27,6 +27,17 @@
+             android:src="@drawable/ic_settings" />
+     </com.google.android.material.appbar.MaterialToolbar>
+ 
++        <com.google.android.material.button.MaterialButton
++            android:id="@+id/btn_inspection"
++            style="@style/Widget.Material3.Button.OutlinedButton"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginHorizontal="16dp"
++            android:layout_marginBottom="4dp"
++            android:text="@string/inspection_entry"
++            android:textAllCaps="false" />
++
++
+     <androidx.core.widget.NestedScrollView
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+diff --git a/MiniCPM-V-demo-Android/app/src/main/res/values-en/strings.xml b/MiniCPM-V-demo-Android/app/src/main/res/values-en/strings.xml
+index 2f6183e..b42689b 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/res/values-en/strings.xml
++++ b/MiniCPM-V-demo-Android/app/src/main/res/values-en/strings.xml
+@@ -178,4 +178,6 @@
+     <string name="tts_preset_load_failed">Failed to load preset: %1$s</string>
+     <string name="tts_baselm_missing">BaseLM GGUF file missing, please download</string>
+     <string name="tts_acoustic_missing">Acoustic GGUF file missing, please download</string>
++    <string name="inspection_entry">Inspection · Photo records</string>
++    <string name="inspection_wait_for_model">Wait for the current model operation before opening Inspection</string>
+ </resources>
+diff --git a/MiniCPM-V-demo-Android/app/src/main/res/values/strings.xml b/MiniCPM-V-demo-Android/app/src/main/res/values/strings.xml
+index f3a0d92..6d937a5 100644
+--- a/MiniCPM-V-demo-Android/app/src/main/res/values/strings.xml
++++ b/MiniCPM-V-demo-Android/app/src/main/res/values/strings.xml
+@@ -181,4 +181,6 @@
+     <string name="tts_preset_load_failed">加载预设失败: %1$s</string>
+     <string name="tts_baselm_missing">BaseLM GGUF 文件不存在，请下载模型</string>
+     <string name="tts_acoustic_missing">Acoustic GGUF 文件不存在，请下载模型</string>
++    <string name="inspection_entry">巡检助手 · 拍照记录</string>
++    <string name="inspection_wait_for_model">请等待当前模型操作完成后进入巡检助手</string>
+ </resources>

@@ -1,0 +1,15 @@
+{
+  "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂纹\", \"needs_retake\": false, \"missing_fields\": []}",
+  "schema_valid": true,
+  "draft": {
+    "object": "表面",
+    "visible_issue": "有裂纹",
+    "needs_retake": false,
+    "missing_fields": []
+  },
+  "prompt": {
+    "version": "inspection-v2-concise",
+    "text": "观察这张照片，用中文描述主要可见对象或表面以及可见状态。只输出一个JSON对象，恰好包含object、visible_issue、needs_retake、missing_fields。object填写对象或表面名称，不要求画面中有独立物体；visible_issue填写可见现象，正常时也描述可见状态。不猜测原因、意图或维修方案。看不清的字段才填null；needs_retake为布尔值；missing_fields为值为null的字段名称数组，没有缺失则为[]。不要Markdown或解释。",
+    "sha256": "0c3fed70240a1639d25d0f6057972c46f9d21abf0925ce1fd19e038d51040fdb"
+  }
+}

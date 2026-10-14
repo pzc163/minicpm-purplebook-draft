@@ -1,0 +1,333 @@
+{
+  "release": "2026-10-15-v2",
+  "model_revision": "fd02313ad21ac485c595cb01231a3bded449cff5",
+  "code_license": "MIT",
+  "data_license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "ANDROID.md",
+      "bytes": 2311,
+      "sha256": "a63c1b2a600bd07f6e25cf70cc80da574baf908e1903d1318ce5c2e3823e2369"
+    },
+    {
+      "path": "LICENSE-CODE-MIT",
+      "bytes": 1096,
+      "sha256": "621afa5e05742ed04e9b9c92bd9c3fbea0d95eb51b1c70cb2e75c0345738ab14"
+    },
+    {
+      "path": "LICENSE-DATA-CC-BY-4.0.md",
+      "bytes": 689,
+      "sha256": "9d961909354992c4a47c2bfcf2a934dcd4d60f495396708c4eeb2f947e6aff2c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5316,
+      "sha256": "92cbbfb110c7c83d174b47cebf884f546524b0034e1b9bbe0e32f0b41e56ef7d"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1213,
+      "sha256": "e66b5a6fed4a1df995d5a55cab9db2ca639c0d534c7900ce717d1cef735217ce"
+    },
+    {
+      "path": "android/InspectionActivity.kt",
+      "bytes": 24951,
+      "sha256": "14455ce3b9c9ae72c00fa0f467074bf60b5efffe59991b2c287bf0e28fbb2f90"
+    },
+    {
+      "path": "android/InspectionBenchmarkInstrumentedTest.kt",
+      "bytes": 8471,
+      "sha256": "873c4356763bd65e1f8ff5e8290bbe27e042792c82d252cc2172d6ef8223844e"
+    },
+    {
+      "path": "android/InspectionContractInstrumentedTest.kt",
+      "bytes": 6067,
+      "sha256": "57609999b0f244ef08c83e0d0c3d269f2f275170df55efa4470ecab6b842fcdb"
+    },
+    {
+      "path": "android/InspectionEntry.kt",
+      "bytes": 675,
+      "sha256": "12904813ab0429ce26e08959c47a7232746efe0471ac06623169f1987c215a7b"
+    },
+    {
+      "path": "android/InspectionImageInstrumentedTest.kt",
+      "bytes": 5003,
+      "sha256": "364690c4e0e70837b0fb9ec2c045e1ce2420e33c22301e55cd1d7725e50185da"
+    },
+    {
+      "path": "android/InspectionImageProcessor.kt",
+      "bytes": 3703,
+      "sha256": "6f2a9ba64c96811e0870acb9b703c7450559ca8967c60b38ca5be2f024fe662d"
+    },
+    {
+      "path": "android/InspectionModelContext.kt",
+      "bytes": 579,
+      "sha256": "951d0af8ba2bdc67bddb7c742b6aba5d27dbeefdfcbb97fee7b37d2bfad3ee12"
+    },
+    {
+      "path": "android/InspectionRecordStore.kt",
+      "bytes": 7846,
+      "sha256": "b712a6f1bf7435b4dd040cccc001840ab917f4adec326647ba8c462764c029cd"
+    },
+    {
+      "path": "android/InspectionRunner.kt",
+      "bytes": 4557,
+      "sha256": "8664a3f39615c15a303f04b518aa2646c9464809a1b00aad2efc9fa2425a2848"
+    },
+    {
+      "path": "android/InspectionTestManifest.xml",
+      "bytes": 272,
+      "sha256": "5aa16e89d3abc5d39a3aff5ad53e7469ceed653edce42a629867682717a31aa9"
+    },
+    {
+      "path": "android/InspectionVisionInstrumentedTest.kt",
+      "bytes": 3498,
+      "sha256": "b016b46af1fe57068cb2c56685643efa78353e9f617b31a4fbe215c2a976a31f"
+    },
+    {
+      "path": "android/patches/0001-minicpmv-system-prompt.patch",
+      "bytes": 4734,
+      "sha256": "f7f134b4ab7addc1dd06c3fcbfedbda2edca9c586bbed88f60dfaf5385db5b4e"
+    },
+    {
+      "path": "android/patches/0002-inspection-module-entry.patch",
+      "bytes": 5616,
+      "sha256": "3b2d9d9b713972cf0712a274a04d0ac0f096ea14b2766a5a86eb8c040f124b6c"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/README.md",
+      "bytes": 1094,
+      "sha256": "78e0d1ea29d3eaf968ba70ffbb468ea0fd490feea60a4edeab7713f19da16c65"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/contact-sheet.jpg",
+      "bytes": 229221,
+      "sha256": "c3b3b30d1f266bde9eea3bf3c1086253b6ee0a855380cc79cc0cf5fed9a1db7f"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/01904.jpg",
+      "bytes": 5868,
+      "sha256": "dfa05fc75a75f9caf4307ab7d1bae1d979026e819887e4d2f225f5f17a25431f"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/05898.jpg",
+      "bytes": 5864,
+      "sha256": "f20b5e3f5fe5486f2a9321067949044610743f1ac671954ec2869564187d9854"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/07629.jpg",
+      "bytes": 5725,
+      "sha256": "9f388daf7495a8b80cc288269eba2414f62bade3baddef07c45f5d6babe65a9d"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/07674.jpg",
+      "bytes": 5345,
+      "sha256": "3fb000a7753e966792657308b05f7c33a0e770dba17b5a1cf746b3dee424bfe1"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/12865.jpg",
+      "bytes": 4883,
+      "sha256": "53669d657ed9cc123982800a60707676ee9ae091b22ee8780c12a552149a8f4f"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/12968.jpg",
+      "bytes": 6178,
+      "sha256": "39c479b9547b88a2f60ec8e0828df4e0ca27e91fcf1891fced8a9efe81324811"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/13846.jpg",
+      "bytes": 5213,
+      "sha256": "3ace048faa2613f396abb07ccc4841339132b2c05aa8d7cdec822ce2a2c91d7c"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/16308.jpg",
+      "bytes": 4917,
+      "sha256": "653511cbf0c0907ec25aa2f41046f749aa56cbae91e147f6b46d7a3c125b1960"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/18081.jpg",
+      "bytes": 5412,
+      "sha256": "08e8d3580145e955f7af803ea700d6c3b2121e61caecfb8e8d3115cfd774d0be"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Negative/18759.jpg",
+      "bytes": 5587,
+      "sha256": "e292c8163cd891b0de9c12770ae67a893d2422d80bbb7eef1f68da1701ab2edd"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/00344.jpg",
+      "bytes": 6484,
+      "sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/00980.jpg",
+      "bytes": 5835,
+      "sha256": "f27ac342a2e19dc7ced831092ab7660900ef56424ebaa3e4ba4aa6d65a07177b"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/01321.jpg",
+      "bytes": 7197,
+      "sha256": "92a46a46c343920ed5526f2d50356af46413f9389f041fae3dccc462aee0d764"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/06361.jpg",
+      "bytes": 6548,
+      "sha256": "09559624ee1f1f2000c58c21ea1f3c6e5c6dceac4c8a3d1698694ded939048d1"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/06503.jpg",
+      "bytes": 5650,
+      "sha256": "244213723c8318be83ae4c5a7e7564e3663db6c2d670e5efb44193ee0debcf91"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/06923.jpg",
+      "bytes": 6340,
+      "sha256": "5650e1cea953007bf147dd48f6a8842c7ddbfb2ccefefa0f7def954e4ba84abf"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/14427_1.jpg",
+      "bytes": 6958,
+      "sha256": "9481a0383fecbbbe1cc3d15ddc92dc3b30f32182de03ead7d5c54bb193ccca64"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/15761_1.jpg",
+      "bytes": 6562,
+      "sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/17209_1.jpg",
+      "bytes": 6605,
+      "sha256": "0c4278b0bc8ae0b79ab634e9656fb7490a6208ff7f5383544333e1b937871ca8"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/images/Positive/19990.jpg",
+      "bytes": 7957,
+      "sha256": "e28b8366e7538a6d412209fecd74f33763d963507273d12856f06d9c833393ac"
+    },
+    {
+      "path": "data/inspection-validation/public-cracks/manifest.json",
+      "bytes": 19514,
+      "sha256": "f909f286b5dfe9684bc8fad23bb6055708f96b76fd38a85228b8f2d06fa5e077"
+    },
+    {
+      "path": "data/inspection_confirmed_example.json",
+      "bytes": 492,
+      "sha256": "4fb8c1017589314f4588373cf5445a0046ab635ab81664ad2a204811f28c0c8e"
+    },
+    {
+      "path": "examples/analyze_gpu_v2.py",
+      "bytes": 3259,
+      "sha256": "f77686fdd12d94ebb5f74af3ba27bab964cf5378597b625c03de5f8cc06ce948"
+    },
+    {
+      "path": "examples/bootstrap_part5.py",
+      "bytes": 2012,
+      "sha256": "9acc85a80f06cb2408de2463df078ca2f07e64c42aae47129a8e3f9b5ec3c8b8"
+    },
+    {
+      "path": "examples/download_vision_model.py",
+      "bytes": 3909,
+      "sha256": "190ba81a5dd961c323fbc769a7febd4fbb22850a142187449cdda75752117b72"
+    },
+    {
+      "path": "examples/inspection_contract.py",
+      "bytes": 3789,
+      "sha256": "508589952b5ee4a1090018c5e219052b6df66206df473c85d278be0e7826469e"
+    },
+    {
+      "path": "examples/integrate_inspection_android.py",
+      "bytes": 6709,
+      "sha256": "505620b615540332ad92ed636898f6d0936a2bfb72d76e5b7e38f8de59f6f4ad"
+    },
+    {
+      "path": "examples/ledger.py",
+      "bytes": 5509,
+      "sha256": "85f72db48a31a47f66775320416ff47ba41e2074f662124647174e24966aaa3e"
+    },
+    {
+      "path": "examples/offline_queue.py",
+      "bytes": 3063,
+      "sha256": "2b39a393da619a48064c3f1b8a9c893422b9e48ac4545d1c1f39c7229821ed1d"
+    },
+    {
+      "path": "examples/task_contract.py",
+      "bytes": 2214,
+      "sha256": "9db0812b9e77e4888b1cad53f99d8659bd0f454d25054d0aa04986cf07b76fde"
+    },
+    {
+      "path": "examples/verify_part5_release.py",
+      "bytes": 936,
+      "sha256": "819f5f97171f85d2cb1e4d14d773e1aaefa2961f0747ff2b2d071f7f08f8240c"
+    },
+    {
+      "path": "examples/vision_baseline.py",
+      "bytes": 2057,
+      "sha256": "431b58bd432d19dae865838d89f1a073513dcd0c4cb35994e3a8b24f2f26ad87"
+    },
+    {
+      "path": "examples/vision_batch.py",
+      "bytes": 6763,
+      "sha256": "299989841a838d9cf1340eb016f6d378018b397c563b338be95049db33881eb9"
+    },
+    {
+      "path": "examples/vision_prompt_diagnostic.py",
+      "bytes": 3778,
+      "sha256": "1a5bb17d135e2b5dc9a7232901ddf29d062dd8e1bd4295aa9f43f92bc170f66d"
+    },
+    {
+      "path": "notebooks/part5_reproduce.ipynb",
+      "bytes": 5227,
+      "sha256": "b421aef5a72eb69fd9687d5eb7d778218fa6b4e4a5faebb54196f3f47f3b58e5"
+    },
+    {
+      "path": "results/published/benchmark-gpu-v2-16x.json",
+      "bytes": 16151,
+      "sha256": "2b5c2e3db121e702cc0efd411542b36cbd4cbdf5dd894f25901c89f52519f909"
+    },
+    {
+      "path": "results/published/benchmark-gpu-v2-4x.json",
+      "bytes": 16247,
+      "sha256": "2b3739c642acb2702eabde08801fee7a872ce43e68b48a739e0d5f4c2e0583d2"
+    },
+    {
+      "path": "results/published/comparison-40.csv",
+      "bytes": 4135,
+      "sha256": "e4bfaecad7837376b924d1983fe90328598b1f83804a47ae66671c2da67278df"
+    },
+    {
+      "path": "results/published/gpu-prompt-diagnostic.json",
+      "bytes": 5960,
+      "sha256": "eafbc6b562a068b6d24eef67d16c6b18c63760ab50275c8214c5c0a79fcf7828"
+    },
+    {
+      "path": "results/published/legacy-v1/benchmark-gpu-16x.json",
+      "bytes": 13596,
+      "sha256": "6fe6d7d63cde890406923fb410fed1e6f841f6c4d87528afbeedcc4f88f632c7"
+    },
+    {
+      "path": "results/published/legacy-v1/benchmark-gpu-4x.json",
+      "bytes": 13592,
+      "sha256": "f12883a4907de8502ad484e715e0bd6b2a01acb9f37918c3328896a9744e35ec"
+    },
+    {
+      "path": "results/published/legacy-v1/summary.json",
+      "bytes": 1379,
+      "sha256": "d5deb977df65e93ec2cc62546d4a5444631f6a6f918d301da70c5c0ad8039f36"
+    },
+    {
+      "path": "results/published/notebook-public-batch-v2-report.json",
+      "bytes": 179,
+      "sha256": "19737ce42d12add79a7b1eedfc7512023577a298c248e72f6d73879827f83471"
+    },
+    {
+      "path": "results/published/semantic-review.md",
+      "bytes": 2912,
+      "sha256": "58dfe8d3cce5882a21bd1cadf35ad676ae31f855362fafa24824583fab777f92"
+    },
+    {
+      "path": "results/published/summary.json",
+      "bytes": 1457,
+      "sha256": "c1b882d019e16432ef475209ccf55d272898b5b7dcd3aef410be9f7952930a0d"
+    }
+  ]
+}

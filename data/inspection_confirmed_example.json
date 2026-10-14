@@ -1,0 +1,13 @@
+{
+  "record_id": "e30ac04c-56d6-4c8e-b005-1d62c567e247",
+  "captured_at": "2026-10-11T15:02:00+08:00",
+  "location": "二层东侧走廊",
+  "object": "灯罩",
+  "visible_issue": "灯罩表面可见破损",
+  "image_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "model_id": "OpenBMB/MiniCPM-V-4.6",
+  "model_revision": "teaching-fixture-no-inference",
+  "confirmed_by": "demo-user",
+  "confirmed_at": "2026-10-11T15:03:00+08:00",
+  "human_confirmed": true
+}

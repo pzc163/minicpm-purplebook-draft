@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-15",
+  "status": "part5_public_reproduction_and_v23_apk_acceptance",
+  "local_contract_and_sync_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "dataset_samples": {
+    "train": 320,
+    "dev": 64,
+    "test": 96,
+    "type": "synthetic",
+    "unique_inputs": 480
+  },
+  "notebooks": {
+    "template_count": 4,
+    "syntax": "passed",
+    "part3_execution": "not performed",
+    "part5_official_smoke": "6 code cells executed on A10; artifacts hash-verified",
+    "part5_public_batch": "v1 failure 0/20 per mode preserved; v2 development regression 20/20 per mode, 12 export files hash verified",
+    "part5_release": "Default python3 kernel, new directory and venv: all 5 code cells passed; 40/40 raw outputs identical to initial v2 run. Official model cache reused and checked."
+  },
+  "python_syntax": "passed",
+  "shell_syntax": "passed",
+  "html_xml_structure": "passed",
+  "android_registration_source_patch": "Pinned upstream plus built and device-tested JNI system-prompt fix",
+  "browser_preview": "Notebook browser UI inspected; local chapter HTML XML-checked",
+  "model_performance_results": "results/published/summary.json; legacy Android v20 timing is historical and uses a different prompt.",
+  "upstream_apps_commit": "d1aac05eecaac64b7fc35f1cc93a06b726ce10e3",
+  "initial_draft_date": "2026-10-11",
+  "initial_not_executed": [
+    "GPU training",
+    "real visual model inference",
+    "GGUF conversion",
+    "ModelScope upload",
+    "Android/Kotlin compilation",
+    "on-device inference and benchmarks",
+    "full mobile business UI"
+  ],
+  "not_executed": [
+    "Part3 GPU training and GGUF conversion",
+    "EvalScope visual evaluation",
+    "Optional 4.7 migration",
+    "Natural low-quality field-sample validation",
+    "Optional ModelScope Studio demo and independent semantic blind review"
+  ],
+  "part5_publication": {
+    "dataset": "https://modelscope.cn/datasets/pzc163/minicpm-v-inspection-part5",
+    "notebook": "https://modelscope.cn/gallery/pzc163/minicpm-v-inspection-part5",
+    "scope": "Reproduction materials published; full chapter scene acceptance remains partial."
+  },
+  "part5_public_evidence_index": "results/published/README.md",
+  "part5_release_apk": {
+    "version_code": 23,
+    "package": "com.example.minicpm_v_demo.practice",
+    "acceptance_report": "results/published/apk-v23/acceptance-report.json",
+    "contract_tests_passed": 7,
+    "image_preprocessing_tests_passed": 3
+  }
+}

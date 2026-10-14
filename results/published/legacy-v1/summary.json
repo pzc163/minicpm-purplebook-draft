@@ -1,0 +1,30 @@
+{
+  "16x": {
+    "n": 20,
+    "schema_valid": 0,
+    "mean_ms": 1247.3051514476538,
+    "median_ms": 1185.5315808206797,
+    "p95_linear_ms": 1353.330011013896,
+    "first_token_id_mean_ms": 160.9252853319049,
+    "cuda_peak_allocated_mib": 2749.7255859375,
+    "cuda_peak_reserved_mib": 2802.0,
+    "load_ms": 4955.086585134268,
+    "failure_cause": "All 20 object=null; missing_fields=[] contradicts null fields",
+    "timing_scope": "processor image loading/template + image encoding + generation + output decoding; first_generated_token_ms is token ID arrival, not first displayed text",
+    "memory_scope": "PyTorch allocator peak on CUDA device 0; not whole-device driver memory"
+  },
+  "4x": {
+    "n": 20,
+    "schema_valid": 0,
+    "mean_ms": 1249.987424723804,
+    "median_ms": 1187.4267291277647,
+    "p95_linear_ms": 1324.7678682208068,
+    "first_token_id_mean_ms": 152.24544275552034,
+    "cuda_peak_allocated_mib": 2843.017578125,
+    "cuda_peak_reserved_mib": 2920.0,
+    "load_ms": 5148.578396067023,
+    "failure_cause": "All 20 object=null; missing_fields=[] contradicts null fields",
+    "timing_scope": "processor image loading/template + image encoding + generation + output decoding; first_generated_token_ms is token ID arrival, not first displayed text",
+    "memory_scope": "PyTorch allocator peak on CUDA device 0; not whole-device driver memory"
+  }
+}

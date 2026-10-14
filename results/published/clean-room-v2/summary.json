@@ -1,0 +1,36 @@
+{
+  "16x": {
+    "n": 20,
+    "strict_valid": 20,
+    "load_ms": 4856.313155964017,
+    "mean_ms": 1034.6760854125023,
+    "median_ms": 977.6665093377233,
+    "p95_linear_ms": 1161.8090044707067,
+    "min_ms": 904.2804706841707,
+    "max_ms": 1956.1254270374775,
+    "first_token_id_mean_ms": 147.16579196974635,
+    "cuda_peak_allocated_mib": 2645.708984375,
+    "cuda_peak_reserved_mib": 2698.0,
+    "needs_retake": 0,
+    "generic_surface_objects": 19,
+    "timing_scope": "processor image loading/template + image encoding + generation + output decoding; first_generated_token_ms is token ID arrival, not first displayed text",
+    "memory_scope": "PyTorch allocator peak on CUDA device 0; not whole-device driver memory"
+  },
+  "4x": {
+    "n": 20,
+    "strict_valid": 20,
+    "load_ms": 4728.674165904522,
+    "mean_ms": 1054.303238261491,
+    "median_ms": 1004.8567149788141,
+    "p95_linear_ms": 1164.652083534748,
+    "min_ms": 907.808693125844,
+    "max_ms": 2107.3233149945736,
+    "first_token_id_mean_ms": 152.21536792814732,
+    "cuda_peak_allocated_mib": 2739.4267578125,
+    "cuda_peak_reserved_mib": 2794.0,
+    "needs_retake": 2,
+    "generic_surface_objects": 16,
+    "timing_scope": "processor image loading/template + image encoding + generation + output decoding; first_generated_token_ms is token ID arrival, not first displayed text",
+    "memory_scope": "PyTorch allocator peak on CUDA device 0; not whole-device driver memory"
+  }
+}

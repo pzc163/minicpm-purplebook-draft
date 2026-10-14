@@ -1,0 +1,17 @@
+{
+  "record": {
+    "record_id": "221e626b-5d51-4296-ad02-f715613220ac",
+    "captured_at": "2026-10-15T03:47:00+08:00",
+    "location": "PUBLIC_FIXTURE_capture_time_unknown_test_import_time_below",
+    "object": "concrete surface",
+    "visible_issue": "Visible cracks on the surface",
+    "image_sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6",
+    "model_id": "OpenBMB/MiniCPM-V-4.6-gguf",
+    "model_revision": "llm-sha256:6b0c74962c44bc6bf4b655b9b02c13eda9d5a0491543ae976d1ac18e4b7892e2;mmproj-sha256:ca931d861d0801d9003e50697cd764721a334107c0e0415a51168ee1938462de;app:d1aac05",
+    "confirmed_by": "apk-test-public-fixture",
+    "confirmed_at": "2026-10-15T04:00:07+08:00",
+    "human_confirmed": true
+  },
+  "status": "in_progress",
+  "version": 2
+}

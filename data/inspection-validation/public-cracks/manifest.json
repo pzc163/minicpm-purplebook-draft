@@ -1,0 +1,594 @@
+{
+  "title": "Concrete Crack Images for Classification",
+  "author": "Çağlar Fırat Özgenel",
+  "version": 2,
+  "source_url": "https://data.mendeley.com/datasets/5y9wdsg2zt/2",
+  "doi": "10.17632/5y9wdsg2zt.2",
+  "license": "CC BY 4.0",
+  "archive_sha256": "08d7dc505a4f5a0330cee2fa2a1ae4b5b4f98bcffd0549b774caf7959bb1f02f",
+  "zip_sha256": "374f74c9a0602fbc07c0a11f62652071b88968bde3fcfb5b3cddfd72e70f431d",
+  "seed": 20261015,
+  "sampling": "10 randomly selected per source class; cropped images; not claimed as 20 independent original scenes",
+  "images": [
+    {
+      "id": "crack-01",
+      "source_path": "Positive/00344.jpg",
+      "image": "images/Positive/00344.jpg",
+      "sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-02",
+      "source_path": "Positive/00980.jpg",
+      "image": "images/Positive/00980.jpg",
+      "sha256": "f27ac342a2e19dc7ced831092ab7660900ef56424ebaa3e4ba4aa6d65a07177b",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-03",
+      "source_path": "Positive/01321.jpg",
+      "image": "images/Positive/01321.jpg",
+      "sha256": "92a46a46c343920ed5526f2d50356af46413f9389f041fae3dccc462aee0d764",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-04",
+      "source_path": "Positive/06361.jpg",
+      "image": "images/Positive/06361.jpg",
+      "sha256": "09559624ee1f1f2000c58c21ea1f3c6e5c6dceac4c8a3d1698694ded939048d1",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-05",
+      "source_path": "Positive/06503.jpg",
+      "image": "images/Positive/06503.jpg",
+      "sha256": "244213723c8318be83ae4c5a7e7564e3663db6c2d670e5efb44193ee0debcf91",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-06",
+      "source_path": "Positive/06923.jpg",
+      "image": "images/Positive/06923.jpg",
+      "sha256": "5650e1cea953007bf147dd48f6a8842c7ddbfb2ccefefa0f7def954e4ba84abf",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-07",
+      "source_path": "Positive/14427_1.jpg",
+      "image": "images/Positive/14427_1.jpg",
+      "sha256": "9481a0383fecbbbe1cc3d15ddc92dc3b30f32182de03ead7d5c54bb193ccca64",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-08",
+      "source_path": "Positive/15761_1.jpg",
+      "image": "images/Positive/15761_1.jpg",
+      "sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-09",
+      "source_path": "Positive/17209_1.jpg",
+      "image": "images/Positive/17209_1.jpg",
+      "sha256": "0c4278b0bc8ae0b79ab634e9656fb7490a6208ff7f5383544333e1b937871ca8",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-10",
+      "source_path": "Positive/19990.jpg",
+      "image": "images/Positive/19990.jpg",
+      "sha256": "e28b8366e7538a6d412209fecd74f33763d963507273d12856f06d9c833393ac",
+      "source_label": "crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "clear_crack_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "可见裂纹或裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-11",
+      "source_path": "Negative/01904.jpg",
+      "image": "images/Negative/01904.jpg",
+      "sha256": "dfa05fc75a75f9caf4307ab7d1bae1d979026e819887e4d2f225f5f17a25431f",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-12",
+      "source_path": "Negative/05898.jpg",
+      "image": "images/Negative/05898.jpg",
+      "sha256": "f20b5e3f5fe5486f2a9321067949044610743f1ac671954ec2869564187d9854",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-13",
+      "source_path": "Negative/07629.jpg",
+      "image": "images/Negative/07629.jpg",
+      "sha256": "9f388daf7495a8b80cc288269eba2414f62bade3baddef07c45f5d6babe65a9d",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-14",
+      "source_path": "Negative/07674.jpg",
+      "image": "images/Negative/07674.jpg",
+      "sha256": "3fb000a7753e966792657308b05f7c33a0e770dba17b5a1cf746b3dee424bfe1",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-15",
+      "source_path": "Negative/12865.jpg",
+      "image": "images/Negative/12865.jpg",
+      "sha256": "53669d657ed9cc123982800a60707676ee9ae091b22ee8780c12a552149a8f4f",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-16",
+      "source_path": "Negative/12968.jpg",
+      "image": "images/Negative/12968.jpg",
+      "sha256": "39c479b9547b88a2f60ec8e0828df4e0ca27e91fcf1891fced8a9efe81324811",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-17",
+      "source_path": "Negative/13846.jpg",
+      "image": "images/Negative/13846.jpg",
+      "sha256": "3ace048faa2613f396abb07ccc4841339132b2c05aa8d7cdec822ce2a2c91d7c",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-18",
+      "source_path": "Negative/16308.jpg",
+      "image": "images/Negative/16308.jpg",
+      "sha256": "653511cbf0c0907ec25aa2f41046f749aa56cbae91e147f6b46d7a3c125b1960",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-19",
+      "source_path": "Negative/18081.jpg",
+      "image": "images/Negative/18081.jpg",
+      "sha256": "08e8d3580145e955f7af803ea700d6c3b2121e61caecfb8e8d3115cfd774d0be",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "已对照图像；裁剪图不用于证明完整设备状态"
+    },
+    {
+      "id": "crack-20",
+      "source_path": "Negative/18759.jpg",
+      "image": "images/Negative/18759.jpg",
+      "sha256": "e292c8163cd891b0de9c12770ae67a893d2422d80bbb7eef1f68da1701ab2edd",
+      "source_label": "no_crack",
+      "width": 227,
+      "height": 227,
+      "review_status": "visually_reviewed_contact_sheet",
+      "quality_group": "normal_surface_crop",
+      "acceptable_objects": [
+        "混凝土表面",
+        "水泥表面",
+        "混凝土墙面",
+        "concrete surface",
+        "cement surface",
+        "surface"
+      ],
+      "required_observations": [
+        "描述可见表面、纹理或点状痕迹；未见明显开口裂缝"
+      ],
+      "unsupported_claims": [
+        "推断建筑位置或楼层",
+        "判断承重或结构安全",
+        "确定开裂成因",
+        "断言必须采取维修方案"
+      ],
+      "review_notes": "阴性标签来自原数据集；细线和纹理存在边界歧义，保留来源标签与视觉描述两种口径"
+    }
+  ]
+}

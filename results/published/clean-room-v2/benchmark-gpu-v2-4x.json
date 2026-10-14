@@ -1,0 +1,415 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-14T18:59:44.829399+00:00",
+  "source": "https://data.mendeley.com/datasets/5y9wdsg2zt/2",
+  "license": "CC BY 4.0",
+  "manifest_sha256": "f909f286b5dfe9684bc8fad23bb6055708f96b76fd38a85228b8f2d06fa5e077",
+  "model_revision": "fd02313ad21ac485c595cb01231a3bded449cff5",
+  "rows": [
+    {
+      "index": 1,
+      "id": "crack-01",
+      "sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6",
+      "raw": "{\"object\": \"石质表面\", \"visible_issue\": \"表面有裂纹\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 31,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "石质表面",
+        "visible_issue": "表面有裂纹",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 2107.3233149945736,
+      "first_generated_token_ms": 1099.4733907282352,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 2,
+      "id": "crack-02",
+      "sha256": "f27ac342a2e19dc7ced831092ab7660900ef56424ebaa3e4ba4aa6d65a07177b",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂纹和斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 30,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有裂纹和斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1105.8350652456284,
+      "first_generated_token_ms": 167.03609190881252,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 3,
+      "id": "crack-03",
+      "sha256": "92a46a46c343920ed5526f2d50356af46413f9389f041fae3dccc462aee0d764",
+      "raw": "{\"object\": \"surface\", \"visible_issue\": \"有裂缝\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 28,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "surface",
+        "visible_issue": "有裂缝",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 914.8987233638763,
+      "first_generated_token_ms": 96.21789865195751,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 4,
+      "id": "crack-04",
+      "sha256": "09559624ee1f1f2000c58c21ea1f3c6e5c6dceac4c8a3d1698694ded939048d1",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂缝和斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 30,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有裂缝和斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1009.24620218575,
+      "first_generated_token_ms": 97.13358990848064,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 5,
+      "id": "crack-05",
+      "sha256": "244213723c8318be83ae4c5a7e7564e3663db6c2d670e5efb44193ee0debcf91",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有深色线条和少量白色斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 33,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有深色线条和少量白色斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1080.1330357789993,
+      "first_generated_token_ms": 100.05363263189793,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 6,
+      "id": "crack-06",
+      "sha256": "5650e1cea953007bf147dd48f6a8842c7ddbfb2ccefefa0f7def954e4ba84abf",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有深色痕迹\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 29,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有深色痕迹",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 949.38899949193,
+      "first_generated_token_ms": 96.15755081176758,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 7,
+      "id": "crack-07",
+      "sha256": "9481a0383fecbbbe1cc3d15ddc92dc3b30f32182de03ead7d5c54bb193ccca64",
+      "raw": "{\"object\": \"地面\", \"visible_issue\": \"有裂缝\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 28,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "地面",
+        "visible_issue": "有裂缝",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 907.808693125844,
+      "first_generated_token_ms": 95.89851647615433,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 8,
+      "id": "crack-08",
+      "sha256": "4b82ac5d7a9439e480cbb7a28de57f870207272e203d6c77385a643fcf34aa2e",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂缝\", \"needs_retake\": true, \"missing_fields\": []}",
+      "generated_tokens": 28,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有裂缝",
+        "needs_retake": true,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 931.7412469536066,
+      "first_generated_token_ms": 95.45934200286865,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 9,
+      "id": "crack-09",
+      "sha256": "0c4278b0bc8ae0b79ab634e9656fb7490a6208ff7f5383544333e1b937871ca8",
+      "raw": "{\"object\": \"混凝土表面\", \"visible_issue\": \"有裂缝\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 29,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "混凝土表面",
+        "visible_issue": "有裂缝",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 955.3555808961391,
+      "first_generated_token_ms": 98.40129129588604,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 10,
+      "id": "crack-10",
+      "sha256": "e28b8366e7538a6d412209fecd74f33763d963507273d12856f06d9c833393ac",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂缝\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 28,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有裂缝",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 922.2519565373659,
+      "first_generated_token_ms": 103.89649495482445,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 11,
+      "id": "crack-11",
+      "sha256": "dfa05fc75a75f9caf4307ab7d1bae1d979026e819887e4d2f225f5f17a25431f",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有小的斑点和不平整\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 31,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有小的斑点和不平整",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1011.7263309657574,
+      "first_generated_token_ms": 95.7394577562809,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 12,
+      "id": "crack-12",
+      "sha256": "f20b5e3f5fe5486f2a9321067949044610743f1ac671954ec2869564187d9854",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"表面有细小颗粒和斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 32,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "表面有细小颗粒和斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1046.5834364295006,
+      "first_generated_token_ms": 103.04543189704418,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 13,
+      "id": "crack-13",
+      "sha256": "9f388daf7495a8b80cc288269eba2414f62bade3baddef07c45f5d6babe65a9d",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有小的斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 29,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有小的斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 944.3762041628361,
+      "first_generated_token_ms": 101.13980248570442,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 14,
+      "id": "crack-14",
+      "sha256": "3fb000a7753e966792657308b05f7c33a0e770dba17b5a1cf746b3dee424bfe1",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"表面有细微纹理和少量小斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 34,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "表面有细微纹理和少量小斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1103.8872301578522,
+      "first_generated_token_ms": 102.56585292518139,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 15,
+      "id": "crack-15",
+      "sha256": "53669d657ed9cc123982800a60707676ee9ae091b22ee8780c12a552149a8f4f",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"纹理不均\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 28,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "纹理不均",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 909.5777887851,
+      "first_generated_token_ms": 95.61032801866531,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 16,
+      "id": "crack-16",
+      "sha256": "39c479b9547b88a2f60ec8e0828df4e0ca27e91fcf1891fced8a9efe81324811",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"表面有斑驳和污渍\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 31,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "表面有斑驳和污渍",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1000.4672277718782,
+      "first_generated_token_ms": 97.11698815226555,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 17,
+      "id": "crack-17",
+      "sha256": "3ace048faa2613f396abb07ccc4841339132b2c05aa8d7cdec822ce2a2c91d7c",
+      "raw": "{\"object\": \"颗粒状物质\", \"visible_issue\": \"颗粒分布均匀，无明显异常\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 34,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "颗粒状物质",
+        "visible_issue": "颗粒分布均匀，无明显异常",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1115.0378081947565,
+      "first_generated_token_ms": 100.56248493492603,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 18,
+      "id": "crack-18",
+      "sha256": "653511cbf0c0907ec25aa2f41046f749aa56cbae91e147f6b46d7a3c125b1960",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有细小颗粒和纹理\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 31,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有细小颗粒和纹理",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1022.608095780015,
+      "first_generated_token_ms": 98.40662404894829,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 19,
+      "id": "crack-19",
+      "sha256": "08e8d3580145e955f7af803ea700d6c3b2121e61caecfb8e8d3115cfd774d0be",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"有裂纹和斑点\", \"needs_retake\": false, \"missing_fields\": []}",
+      "generated_tokens": 30,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "有裂纹和斑点",
+        "needs_retake": false,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 980.2532251924276,
+      "first_generated_token_ms": 97.24470414221287,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    },
+    {
+      "index": 20,
+      "id": "crack-20",
+      "sha256": "e292c8163cd891b0de9c12770ae67a893d2422d80bbb7eef1f68da1701ab2edd",
+      "raw": "{\"object\": \"表面\", \"visible_issue\": \"纹理不均，部分区域略显模糊\", \"needs_retake\": true, \"missing_fields\": []}",
+      "generated_tokens": 33,
+      "reached_token_limit": false,
+      "draft": {
+        "object": "表面",
+        "visible_issue": "纹理不均，部分区域略显模糊",
+        "needs_retake": true,
+        "missing_fields": []
+      },
+      "schema_valid": true,
+      "elapsed_ms": 1067.5645992159843,
+      "first_generated_token_ms": 103.14788483083248,
+      "cuda_peak_allocated_bytes": 2872497152,
+      "cuda_peak_reserved_bytes": 2929721344
+    }
+  ],
+  "prompt": {
+    "version": "inspection-v2-concise",
+    "text": "观察这张照片，用中文描述主要可见对象或表面以及可见状态。只输出一个JSON对象，恰好包含object、visible_issue、needs_retake、missing_fields。object填写对象或表面名称，不要求画面中有独立物体；visible_issue填写可见现象，正常时也描述可见状态。不猜测原因、意图或维修方案。看不清的字段才填null；needs_retake为布尔值；missing_fields为值为null的字段名称数组，没有缺失则为[]。不要Markdown或解释。",
+    "sha256": "0c3fed70240a1639d25d0f6057972c46f9d21abf0925ce1fd19e038d51040fdb"
+  },
+  "evaluation_scope": "development regression; three of these images were used in prompt diagnostics, not a held-out accuracy benchmark",
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.7.0",
+    "gpu": "NVIDIA A10"
+  },
+  "config": {
+    "downsample": "4x",
+    "max_slice_nums": 1,
+    "thinking": false,
+    "do_sample": false,
+    "max_new_tokens": 384
+  },
+  "timing_scope": "processor image loading/template + image encoding + generation + output decoding; first_generated_token_ms is token ID arrival, not first displayed text",
+  "memory_scope": "PyTorch allocator peak on CUDA device 0; not whole-device driver memory",
+  "load_ms": 4728.674165904522,
+  "finished_at": "2026-10-14T19:00:11.491173+00:00",
+  "cuda_peak_allocated_bytes": 2872497152,
+  "cuda_peak_reserved_bytes": 2929721344
+}

@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "clean-room-report.json",
+      "bytes": 378,
+      "sha256": "f9b88c321da237d865e038611dceecef50489f73d4c3524e0dfd2705d6cd2294"
+    },
+    {
+      "path": "public-download-check.json",
+      "bytes": 249,
+      "sha256": "9ba51b959cc21dbd11e068368e4987ed0e3a20fa060b62bfd5e26b45e1ef00bd"
+    },
+    {
+      "path": "part5-release/notebooks/part5_reproduce.executed.ipynb",
+      "bytes": 46813,
+      "sha256": "b6a217f3d4a718d5dab87f59dcbb092a3a6aaab2588ef7f82f3e6dde512b3ae7"
+    },
+    {
+      "path": "part5-release/results/reproduction/benchmark-gpu-v2-16x.json",
+      "bytes": 16149,
+      "sha256": "fbe5e7f517f8f36ab3f45658162e2d99a8c8d6d250da39d071cd9395c336cca3"
+    },
+    {
+      "path": "part5-release/results/reproduction/benchmark-gpu-v2-4x.json",
+      "bytes": 16249,
+      "sha256": "f5fd1089202222f00b234edffce419a2cca3936b82617aaa04df7fbfc3ee697b"
+    },
+    {
+      "path": "part5-release/results/reproduction/comparison-40.csv",
+      "bytes": 4134,
+      "sha256": "f387b92e9745699db9b2a82ea8e385b9beccca44a0fc484960ae070f01ed1bde"
+    },
+    {
+      "path": "part5-release/results/reproduction/environment.json",
+      "bytes": 450,
+      "sha256": "65471df8d814c402b70865839b38b803a519ffba272783559fa87017504a6e2b"
+    },
+    {
+      "path": "part5-release/results/reproduction/inspection-one.json",
+      "bytes": 950,
+      "sha256": "aa4ead454727de5101b325aa85f1dc307f4ab14ab1e52e57cf3d0f10f30227c5"
+    },
+    {
+      "path": "part5-release/results/reproduction/pip-freeze.txt",
+      "bytes": 10085,
+      "sha256": "0d49b5c4177b8d66ab85334c4e1b58c2af78be1868a6b059b5ebee12b5b882cb"
+    },
+    {
+      "path": "part5-release/results/reproduction/summary.json",
+      "bytes": 1459,
+      "sha256": "64ce26232e378dac89f4fd437b3e19240260f46be39b1986288317872165a767"
+    }
+  ]
+}

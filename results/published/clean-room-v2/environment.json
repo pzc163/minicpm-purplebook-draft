@@ -1,0 +1,17 @@
+{
+  "python": "3.12.13",
+  "torch": "2.13.0+cu130",
+  "torch_cuda": "13.0",
+  "torchvision": "0.28.0+cu130",
+  "gpu": "NVIDIA A10",
+  "packages": {
+    "transformers": "5.7.0",
+    "modelscope": "1.33.0",
+    "accelerate": "1.14.0",
+    "Pillow": "11.3.0",
+    "av": "18.1.0",
+    "tokenizers": "0.22.2",
+    "requests": "2.32.5"
+  },
+  "scope": "isolated venv; GPU torch/torchvision inherited from the Notebook base, not installed by this script"
+}

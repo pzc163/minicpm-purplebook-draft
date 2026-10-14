@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-15",
+  "device": "HONOR Magic9 Pro Max / WKL-AN80",
+  "android_api": 37,
+  "page_size_bytes": 4096,
+  "apk": {
+    "status": "device_acceptance_complete",
+    "version_code": 23,
+    "version_name": "2.5",
+    "package": "com.example.minicpm_v_demo.practice",
+    "label": "MiniCPM-V 巡检实践版",
+    "bytes": 21137824,
+    "sha256": "6615b7de73245a2dde9f45dae12da46298fe46bc97022a24329213afedba1283",
+    "signing_certificate_sha256": "3eddc4d89ab27dc97302e839da128905e71779c276cd34c79e2aded29e230791",
+    "v2_signature": true,
+    "v3_signature": true,
+    "debuggable": false,
+    "abi": "arm64-v8a",
+    "min_sdk": 24,
+    "target_sdk": 36,
+    "model_weights_bundled": false,
+    "device_acceptance": "passed_with_disclosed_raw_generation_failure",
+    "license_assets_included": true,
+    "functional_entries_equal_pre_notices": true,
+    "helper_end_to_end_verified": true,
+    "same_signature_update": true,
+    "record_payloads_preserved": true,
+    "model_hashes": [
+      {
+        "file": "MiniCPM-V-4_6-Q4_K_M.gguf",
+        "bytes": 529101504,
+        "sha256": "6b0c74962c44bc6bf4b655b9b02c13eda9d5a0491543ae976d1ac18e4b7892e2"
+      },
+      {
+        "file": "mmproj-model-f16.gguf",
+        "bytes": 1108746944,
+        "sha256": "ca931d861d0801d9003e50697cd764721a334107c0e0415a51168ee1938462de"
+      }
+    ]
+  },
+  "checks": {
+    "fresh_install_no_weights_no_confirmed_records": true,
+    "app_download_language_and_vision": true,
+    "original_home_and_model_list_retained": true,
+    "original_text_and_image_generation": true,
+    "image_and_video_picker_entry": true,
+    "tts_page_entry_without_tts_weights": true,
+    "inspection_module_navigation_and_chat_return": true,
+    "contract_sqlite_tests_passed": 7,
+    "image_preprocessing_tests_passed": 3,
+    "airplane_mode_on_wifi_off_no_adb_reverse_during_generation": true,
+    "album_public_image_import": true,
+    "human_review_local_confirm": true,
+    "failed_sync_retains_record": true,
+    "explicit_sync_success": true,
+    "server_record_count": 1,
+    "same_payload_repeat_post_http_status": 200,
+    "remote_status_refresh": "in_progress v2",
+    "same_version_same_signature_reinstall_preserves_record_payload_and_status": true,
+    "post_update_cold_start_and_draft_preview": true,
+    "original_old_app_two_complete_rows_unchanged": true,
+    "wireless_and_stay_awake_settings_restored": true,
+    "adb_reverse_removed": true
+  },
+  "generation_attempts": [
+    {
+      "attempt": 1,
+      "schema_valid": false,
+      "raw_detail": "首字：8081 ms\n完整草稿：15236 ms\n\n{\"object\": \"surface\", \"visible_issue\": \"cracked\", \"needs_retake\": false, \"missing_fields\":[][]}",
+      "error": "Unterminated object at line 1 column 94",
+      "raw_modified": false
+    },
+    {
+      "attempt": 2,
+      "schema_valid": true,
+      "first_text_ms": 7986,
+      "complete_ms": 19927,
+      "raw": "{\n  \"object\": \"material\",\n  \"visible_issue\": \"cracks and separation\",\n  \"needs_retake\": false,\n  \"missing_fields\": []\n}",
+      "raw_modified": false
+    }
+  ],
+  "public_image_id": "crack-01",
+  "original_image_sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6",
+  "confirmed_fixture_record_hashes": [
+    {
+      "id": "221e626b-5d51-4296-ad02-f715613220ac",
+      "payload_sha256": "6740882ec8cad6ee2d535d0a04b94901e68abc7460d7bf56e10cf6c8c88d50a9",
+      "image_sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6",
+      "synced": true,
+      "remote_status": "in_progress"
+    }
+  ],
+  "fixture_notice": "PUBLIC_FIXTURE: original capture time unknown; timestamp is test import time, not a real inspection. Test confirmer apk-test-public-fixture.",
+  "limitations": [
+    "Two attempts on one previously used public crop are a workflow test, not an independent semantic evaluation or reliability rate.",
+    "First attempt invalid JSON missing_fields:[][] was rejected; second attempt parsed; raw answers retained unchanged.",
+    "Final APK added only license assets and a new signature; all shared non-signature ZIP entries equal the UI-tested APK. Post-update model hashes, record state, cold start and draft recovery tested on final installed APK.",
+    "Same-version replacement tested; a future higher-version update not tested.",
+    "Original video processing and speech synthesis/recording were not fully exercised; TTS model not downloaded.",
+    "Natural low-quality field images and independent semantic review remain pending; only this 4KiB arm64 device verified.",
+    "During automation, an earlier UI flow returned to the old validation package. It is excluded from new APK results; one clearly labeled public fixture was added there. Original two complete rows remain unchanged."
+  ]
+}

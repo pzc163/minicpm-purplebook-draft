@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="2" android:versionName="1.0">
+    <application android:label="巡检验证组件" tools:replace="android:label" />
+</manifest>

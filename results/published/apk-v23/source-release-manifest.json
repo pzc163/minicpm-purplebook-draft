@@ -1,0 +1,257 @@
+{
+  "release": "apk-v23-2026-10-15",
+  "code_license": "MIT for original additions only; upstream/native dependencies retain their licenses",
+  "data_license": "CC-BY-4.0 for the public crop only",
+  "files": [
+    {
+      "path": "ANDROID.md",
+      "bytes": 2443,
+      "sha256": "8d878cb36aa337f02e06868ed6cf002f835d3f6e028e9c8cf2b840ac4f64cf9b"
+    },
+    {
+      "path": "APK-INSTALL.md",
+      "bytes": 4518,
+      "sha256": "9651bc714b7ff61e4107727d58e6768ba586ccebca4f0fa5b21651c170df9175"
+    },
+    {
+      "path": "APK-VALIDATION.md",
+      "bytes": 3378,
+      "sha256": "7f97568116ad33e91f3811d1071b3bb1d0e87d946c2952816d796f406da92816"
+    },
+    {
+      "path": "LICENSE-CODE-MIT",
+      "bytes": 1096,
+      "sha256": "621afa5e05742ed04e9b9c92bd9c3fbea0d95eb51b1c70cb2e75c0345738ab14"
+    },
+    {
+      "path": "LICENSE-DATA-CC-BY-4.0.md",
+      "bytes": 689,
+      "sha256": "9d961909354992c4a47c2bfcf2a934dcd4d60f495396708c4eeb2f947e6aff2c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4518,
+      "sha256": "9651bc714b7ff61e4107727d58e6768ba586ccebca4f0fa5b21651c170df9175"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1324,
+      "sha256": "0dff1cc2c5bbe323dee703616e2c2ad7aedbb3a06cfd47639675700a670cd616"
+    },
+    {
+      "path": "acceptance/MiniCPM-V-demo-Android-v2.5.signature.txt",
+      "bytes": 983,
+      "sha256": "af4d2df5a69db60fe8930643c7371d01bcf67ef4efbd5e9c14c636096d756cdd"
+    },
+    {
+      "path": "acceptance/acceptance-report.json",
+      "bytes": 4801,
+      "sha256": "1228980d12c4a1103148bc6024d0b484fd10eacb5bf07a091e99e3c15900466d"
+    },
+    {
+      "path": "acceptance/contract-image-tests.log",
+      "bytes": 163,
+      "sha256": "fca3be1e59622b304a62f6d69dd4cd9961622aca3c079464d57c3fcb90dae402"
+    },
+    {
+      "path": "acceptance/fresh-install-test.log",
+      "bytes": 90,
+      "sha256": "6f3807cbe72022420269772f2fc8fe516001f2c384e06a90607cd9483e8d3657"
+    },
+    {
+      "path": "acceptance/post-update-tests.log",
+      "bytes": 92,
+      "sha256": "8bbd70dd155d5ba33ce5c0943414234d558ce02177dc2b5e09a586c8ec487c42"
+    },
+    {
+      "path": "acceptance/practice-attempt-1.json",
+      "bytes": 294,
+      "sha256": "6886c1730b0eb3969fda5b838db7a19267f20ae88565a3fcd84c19d89e5161dd"
+    },
+    {
+      "path": "acceptance/practice-attempt-2.json",
+      "bytes": 265,
+      "sha256": "ca545388842abedb77ec0c00bad2924bd8bd7e4d133f4300e258464692ac7bc5"
+    },
+    {
+      "path": "acceptance/public-ledger-record.json",
+      "bytes": 785,
+      "sha256": "605cb368d6617f72ee14b0e328da017ae230e0f9a71afaa707ae481432a9d2b2"
+    },
+    {
+      "path": "acceptance/signing-certificate.pem",
+      "bytes": 1580,
+      "sha256": "59f9eb5077609725bc8d3bc8d74e7364d67298209b53fc20178a48d6be398948"
+    },
+    {
+      "path": "android/InspectionActivity.kt",
+      "bytes": 24951,
+      "sha256": "14455ce3b9c9ae72c00fa0f467074bf60b5efffe59991b2c287bf0e28fbb2f90"
+    },
+    {
+      "path": "android/InspectionBenchmarkInstrumentedTest.kt",
+      "bytes": 8471,
+      "sha256": "873c4356763bd65e1f8ff5e8290bbe27e042792c82d252cc2172d6ef8223844e"
+    },
+    {
+      "path": "android/InspectionContractInstrumentedTest.kt",
+      "bytes": 6067,
+      "sha256": "57609999b0f244ef08c83e0d0c3d269f2f275170df55efa4470ecab6b842fcdb"
+    },
+    {
+      "path": "android/InspectionEntry.kt",
+      "bytes": 675,
+      "sha256": "12904813ab0429ce26e08959c47a7232746efe0471ac06623169f1987c215a7b"
+    },
+    {
+      "path": "android/InspectionImageInstrumentedTest.kt",
+      "bytes": 5003,
+      "sha256": "364690c4e0e70837b0fb9ec2c045e1ce2420e33c22301e55cd1d7725e50185da"
+    },
+    {
+      "path": "android/InspectionImageProcessor.kt",
+      "bytes": 3703,
+      "sha256": "6f2a9ba64c96811e0870acb9b703c7450559ca8967c60b38ca5be2f024fe662d"
+    },
+    {
+      "path": "android/InspectionModelContext.kt",
+      "bytes": 579,
+      "sha256": "951d0af8ba2bdc67bddb7c742b6aba5d27dbeefdfcbb97fee7b37d2bfad3ee12"
+    },
+    {
+      "path": "android/InspectionRecordStore.kt",
+      "bytes": 7846,
+      "sha256": "b712a6f1bf7435b4dd040cccc001840ab917f4adec326647ba8c462764c029cd"
+    },
+    {
+      "path": "android/InspectionReleaseAcceptanceTest.kt",
+      "bytes": 4568,
+      "sha256": "c4761c5a33f86f52a886daea364d5402528691ededae060efdc721e6535d498d"
+    },
+    {
+      "path": "android/InspectionRunner.kt",
+      "bytes": 4557,
+      "sha256": "8664a3f39615c15a303f04b518aa2646c9464809a1b00aad2efc9fa2425a2848"
+    },
+    {
+      "path": "android/InspectionTestManifest.xml",
+      "bytes": 272,
+      "sha256": "5aa16e89d3abc5d39a3aff5ad53e7469ceed653edce42a629867682717a31aa9"
+    },
+    {
+      "path": "android/InspectionVisionInstrumentedTest.kt",
+      "bytes": 3498,
+      "sha256": "b016b46af1fe57068cb2c56685643efa78353e9f617b31a4fbe215c2a976a31f"
+    },
+    {
+      "path": "android/patches/0001-minicpmv-system-prompt.patch",
+      "bytes": 4734,
+      "sha256": "f7f134b4ab7addc1dd06c3fcbfedbda2edca9c586bbed88f60dfaf5385db5b4e"
+    },
+    {
+      "path": "android/patches/0002-inspection-module-entry.patch",
+      "bytes": 5616,
+      "sha256": "3b2d9d9b713972cf0712a274a04d0ac0f096ea14b2766a5a86eb8c040f124b6c"
+    },
+    {
+      "path": "android/release/AndroidManifest.xml",
+      "bytes": 331,
+      "sha256": "b6b1d219248b581bebb37dc30ce2c179bda11ead2437b3202d188518f398aa94"
+    },
+    {
+      "path": "android/release/assets/THIRD_PARTY_NOTICES.md",
+      "bytes": 945,
+      "sha256": "0be12c7fff5420be04ce50fadbf4b8c23c45513e99493d391688de92a9347450"
+    },
+    {
+      "path": "android/release/assets/licenses/LICENSE-curl",
+      "bytes": 1053,
+      "sha256": "55467d323c2e3de4eb87ab345799b25e6f0967a8cfae0b70f36c2a42c0cfc931"
+    },
+    {
+      "path": "android/release/assets/licenses/LICENSE-httplib",
+      "bytes": 1074,
+      "sha256": "f8c53951438545b8ed61176d9071bd1039e81502f9ec9590b85ccd5c71a08473"
+    },
+    {
+      "path": "android/release/assets/licenses/LICENSE-jsonhpp",
+      "bytes": 1075,
+      "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
+    },
+    {
+      "path": "android/release/assets/licenses/LICENSE-linenoise",
+      "bytes": 1472,
+      "sha256": "211358a422262efacbd4618154d97ab2e28aea15265aaebf1d58ffb3a775b1af"
+    },
+    {
+      "path": "android/release/assets/licenses/chapter-original-MIT.txt",
+      "bytes": 1096,
+      "sha256": "621afa5e05742ed04e9b9c92bd9c3fbea0d95eb51b1c70cb2e75c0345738ab14"
+    },
+    {
+      "path": "android/release/assets/licenses/llama.cpp-omni-MIT.txt",
+      "bytes": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "android/release/res/xml/inspection_release_network.xml",
+      "bytes": 303,
+      "sha256": "0e579d59c71bd5ea251e23036f21f693a81ab905564e80b318e11f0d3703e202"
+    },
+    {
+      "path": "data/inspection_confirmed_example.json",
+      "bytes": 492,
+      "sha256": "4fb8c1017589314f4588373cf5445a0046ab635ab81664ad2a204811f28c0c8e"
+    },
+    {
+      "path": "examples/build_part5_release_apk.py",
+      "bytes": 2368,
+      "sha256": "7ca7bb5716c56b53db01c04e9bb053f27c4ddff58fa9a666e21146f04a2165dc"
+    },
+    {
+      "path": "examples/inspection_contract.py",
+      "bytes": 3789,
+      "sha256": "508589952b5ee4a1090018c5e219052b6df66206df473c85d278be0e7826469e"
+    },
+    {
+      "path": "examples/integrate_inspection_android.py",
+      "bytes": 6709,
+      "sha256": "505620b615540332ad92ed636898f6d0936a2bfb72d76e5b7e38f8de59f6f4ad"
+    },
+    {
+      "path": "examples/ledger.py",
+      "bytes": 5509,
+      "sha256": "85f72db48a31a47f66775320416ff47ba41e2074f662124647174e24966aaa3e"
+    },
+    {
+      "path": "examples/offline_queue.py",
+      "bytes": 3063,
+      "sha256": "2b39a393da619a48064c3f1b8a9c893422b9e48ac4545d1c1f39c7229821ed1d"
+    },
+    {
+      "path": "examples/sign_part5_apk.py",
+      "bytes": 3278,
+      "sha256": "c384a8096439b7e121ff0f4e3a4081d8ad77b2151bb6ca68a6d2f570309dae4f"
+    },
+    {
+      "path": "examples/task_contract.py",
+      "bytes": 2214,
+      "sha256": "9db0812b9e77e4888b1cad53f99d8659bd0f454d25054d0aa04986cf07b76fde"
+    },
+    {
+      "path": "examples/verify_part5_release.py",
+      "bytes": 936,
+      "sha256": "819f5f97171f85d2cb1e4d14d773e1aaefa2961f0747ff2b2d071f7f08f8240c"
+    },
+    {
+      "path": "fixtures/crack-01.jpg",
+      "bytes": 6484,
+      "sha256": "7b31d500acd31d836fa1770fd222fd914b38026fd5f08c0dba82d5b8ded740d6"
+    },
+    {
+      "path": "fixtures/crack-01.json",
+      "bytes": 352,
+      "sha256": "49c5447d73cfde60e7140d4eba621174f9350194549861abd1d7e25ff308b2b9"
+    }
+  ]
+}
